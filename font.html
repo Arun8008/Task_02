@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Font</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+   <style>
+   @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+   
+   div{ border:5px solid black;
+        padding:10px;
+		margin-bottom:5px;
+		}
+   .cm{ font-size:0.5cm;
+   }
+   .mm{ font-size:7mm;
+   }
+   .in{ font-size:0.4in;
+   }
+   .pt{ font-size:15px;
+   }
+   .re1{background-color:red;
+       font-size:1cm;
+	   }
+   .re2{background-color:lightgreen;
+       font-size:2vw;
+	   }
+   .re3{background-color:blue;
+       font-size:6vh;
+	   }
+   .re4{background-color:yellow;
+       font-size:70%;
+	   }
+	.f1{ font-size:30px;
+	font-style:normal;
+	}
+	.f2{ font-size:30px;
+	font-style:italic;
+	}
+    .f3{ font-size:30px;
+	font-style:oblique;
+	}
+	.ul1{ font-size:30px;
+	font-weight:lighter;
+	}
+    .ul2{ font-size:30px;
+	font-weight:bold;
+	}
+    .ul3{ font-size:30px;
+	font-weight:1000;
+	}
+    .ts1{ font-family:impact;
+	}
+	.ts2{ font-family:arial;
+	}
+	.ts3{ font-family:times new roman;
+	}
+	.ts4{ font-family:calibri;
+	}
+	.ts5{ font-family:monospace;
+	}
+
+    .gf1{font-family: 'Rubik Bubbles', cursive;
+	}
+	.gf2{font-family: 'Xanh Mono', monospace;
+	}
+	@font-face{font-family:CaveatBrush-Regular;
+	src:url(font/CaveatBrush-Regular.ttf);
+	}
+	.df1{ font-family:CaveatBrush-Regular;
+	}
+	@font-face{font-family:Dynalight-Regular;
+	src:url(font/Dynalight-Regular.ttf);
+	}
+	.df2{ font-family:Dynalight-Regular;
+	}
+	
+   </style>
+</head>
+<body>
+    <div>
+	   <h1>Font-Size(absolute)</h1>
+	   <h2>Using cm</h2>
+	   <p class="cm">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	   <h2>Using mm</h2>
+	   <p class="mm">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+       <h2>Using in</h2>
+	   <p class="in">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+       <h2>Using pt</h2>
+	   <p class="pt">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+    </div>
+    <div>
+	   <h1>Font-Size(relative)</h1>
+	   <h2>Using rcm</h2>
+	   <p class="re1">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	   <h2>Using vw</h2>
+	   <p class="re2">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+       <h2>Using vh</h2>
+	   <p class="re3">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+       <h2>Using %</h2>
+	   <p class="re4">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+    </div>
+	<div>
+	   <h1>Font-Style</h1>
+	   <h2>Using normal</h2>
+	   <p class="f1">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	   <h2>Using italic</h2>
+	   <p class="f2">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+       <h2>Using oblique</h2>
+	   <p class="f3">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+    </div>
+	<div>
+	   <h1>Font-Weight</h1>
+	   <h2>Using lighter</h2>
+	   <p class="ul1">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	   <h2>Using bold</h2>
+	   <p class="ul2">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+       <h2>Using number</h2>
+	   <p class="ul3">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+    </div>
+	<div>
+	   <h1>Font-Family</h1>
+	   <h2>Using impact</h2>
+	   <p class="ts1">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	   <h2>Using arial</h2>
+	   <p class="ts2">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+       <h2>Using Times new roman</h2>
+	   <p class="ts3">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	   <h2>Using calibri </h2>
+	   <p class="ts4">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	   <h2>Using monospace</h2>
+	   <p class="ts5">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+    </div>
+    <div>
+	   <h1>Google-Font</h1>
+	   <h2>Using Link</h2>
+	   <p class="gf1">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	   <h2>Using Import</h2>
+	   <p class="gf2">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	</div>
+    <div>
+	   <h1>Download-Font</h1>
+	   <h2>Using Caveat</h2>
+	   <p class="df1">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	   <h2>Using Dynalight</h2>
+	   <p class="df2">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+	 </div>
+
+
+
+</body>
+</html>
